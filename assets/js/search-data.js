@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-portfolio",
+          title: "Portfolio",
+          description: "AI &amp; Autonomous Systems Portfolio",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/portfolio/cv/";
+            window.location.href = "/portfolio/portfolio/";
           },
         },{id: "nav-teaching",
           title: "teaching",
